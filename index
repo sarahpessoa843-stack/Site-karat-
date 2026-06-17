@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dia Mundial do Karatê</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+ 
+
+
+
+<body>
+
+    <header>
+        <h1 id="titulo">DIA MUNDIAL DO KARATÊ 🥋</h1>
+    </header>
+
+    <nav>
+        <ul>
+            <li><a href="#"onclick="mostrar('home')">HOME</a></li>
+            <li><a href="#"onclick="mostrar('sobre')">SOBRE</a></li>
+            <li><a href="#"onclick="mostrar('benefícios')">BENEFÍCIOS</a></li>
+        </ul>
+    </nav>
+
+    <main>
+
+        <section id="home" class="pagina">
+            <h2>HOME</h2>
+
+            <p>
+                O karate surgiu em Okinawa,no Japão,e é uma das
+              artes marcias.
+          </p>
+
+          <p>O Cobra Kai é uma extensão direta do universo Karatê Kid e herda os fundamentos do karatê tradicional 
+
+          </p>
+
+          </p> — como os golpes, a disciplina, as posturas e a estrutura de dojo. 
+          
+            </p>
+
+        <p>Enquanto o clássico busca o equilíbrio emocional, o Cobra Kai foca em um estilo mais agressivo e voltado para a autodefesa prática
+
+         </p>
+        </section>
+
+        <section id="sobre" class="pagina" style="display:none;">
+            <h2>SOBRE</h2>
+
+          <p>
+           Cobra Kai é uma série de ação e comédia dramática que continua a clássica franquia de filmes Karatê Kid. 
+          </p>
+
+           <p>A história acompanha a rivalidade reacendida entre Johnny Lawrence e Daniel LaRusso décadas após o torneio de 1984, 
+            </p>
+
+            <p>
+            explorando o amadurecimento deles e de uma nova geração de jovens.
+            </p>
+       
+          <p>
+            seus principais velores sao disciplina,respeito e perseverença
+         </p>
+
+        </section>
+
+        <section id="benefícios" class="pagina" style="display: none;">
+            <h2>BENEFÍCIOS DO KARATÊ</h2>
+
+            <p>Desenvolve disciplina e respeito</p>
+            <p>Melhora o condicionamento físico</p>
+            <p>Aumenta a concentracao e o autocontole</p>
+            <p>Incentiva o trabalho em equipe e a amizade</p>
+        </section>
+
+            <img src="https://cloud.estacaonerd.com/wp-content/uploads/2022/09/11021451/ezgif.com-gif-maker-3-8-1200x1776-1.webp">
+          </section>
+
+            
+    </main>
+           
+        <footer>
+            <img src="https://s1.static.brasilescola.uol.com.br/be/vestibular/-59f0bc5fbf61d.jpg">
+            <span class="nome">Sarah Pessoa Pereira</span>
+        
+
+        </footer>
+
+    <script>
+        function mostrar(id){
+            let paginas  = document.querySelectorAll('.pagina');
+
+            paginas.forEach(function(pagina){
+                pagina.style.display = 'none';
+            });
+            
+            document.getElementById(id).style.display ='block';
+        }
+    </script>
+
+</body>
+</html>
